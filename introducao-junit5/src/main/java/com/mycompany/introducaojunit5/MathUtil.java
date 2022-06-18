@@ -7,14 +7,11 @@ package com.mycompany.introducaojunit5;
 
 import java.util.Objects;
 
-/**
- *
- * @author patricia
- */
+
 public class MathUtil {
 
     public static int mdd(int a, int b) {
-        //codigo propiedade 7
+        //propiedade 7
         a = Math.abs(a);
         b = Math.abs(b);
         //propiedade 6 
@@ -22,7 +19,7 @@ public class MathUtil {
         b = Math.min(a, b);
         a = maior;
 
-        //odigo propiedade 1
+        //codigo propiedade 1
         if (b > 0 && a % b == 0) {
             return b;
         }
