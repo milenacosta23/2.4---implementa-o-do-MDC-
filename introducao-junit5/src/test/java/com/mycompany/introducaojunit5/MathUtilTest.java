@@ -9,13 +9,10 @@ import static com.mycompany.introducaojunit5.MathUtil.mdd;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- *
- * @author patricia
- */
+
 public class MathUtilTest {
 
-    //sao  teste da propiedade 1
+    //São  teste da propiedade 1
     @Test
     public void testSomeMethodAparP1() {
         final int a = 6;
@@ -24,7 +21,7 @@ public class MathUtilTest {
         int obtido = MathUtil.mdd(a, b);
         assertEquals(esperado, obtido);
     }
-    //sao  teste da propiedade 1
+    //São  teste da propiedade 1
 
     void testMdcAImparP1() {
         final int a = 9;
@@ -154,6 +151,7 @@ public class MathUtilTest {
         final int c = 4;
         final int esperado = 2;
         final int obtido = mdd(a, b, c);
+        assertEquals(esperado,obtido);
     }
 
     @Test
